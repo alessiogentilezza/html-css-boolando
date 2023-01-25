@@ -13,10 +13,6 @@ html {
     text-align: center;
 } */
 
-.topbar li {
-    padding: 0px 15px;
-    display: inline-block;
-}
 
 header {
     background-color: #FF6900;
@@ -50,7 +46,10 @@ header {
     padding: 10px;
 }
 
-
+.topbar li {
+    padding: 0px 15px;
+    display: inline-block;
+}
 
 .logo-column {
     width: calc(100% / 3);
@@ -58,11 +57,10 @@ header {
     display: flex;
     justify-content: center;
 }
+
 /* #logo {
     height: 100%
 } */
-
-
 
 .icon-column {
     width: calc(100% / 3);
@@ -72,7 +70,42 @@ header {
     justify-content: flex-end;
     color: white;
 }
+
 .icon-column i {
-padding: 0px 10px
+    padding: 0px 10px
 }
 
+.container {
+    max-width: 1170px;
+    margin: 100px auto;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    position: relative;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tag-red {
+    background-color: red;
+}
