@@ -23,10 +23,6 @@ header {
     z-index: 9;
 }
 
-/* main {
-    padding-top: 120px;
-} */
-
 .topbar {
     height: 100px;
     display: flex;
@@ -111,18 +107,22 @@ header {
 
 .tag-red {
     background-color: red;
-    /* display: inline-block;    */
     z-index: 3;
 
 }
 
 .tag-green {
     background-color: green;
-    /* display: inline-block; */
     left:60px;
     z-index: 3;
 
 }
+.tag-green-sx {
+    background-color: green;
+    z-index: 3;
+
+}
+
 
 .text-red {
     color: red;
