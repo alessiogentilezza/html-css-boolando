@@ -152,15 +152,19 @@ header {
 }
 
 .model-top:hover {
-    display: none;
+    /* display: none; */
+    opacity: 0;
 }
 
 .hover-red {
     color: red;
+
 }
 
 .heart:hover {
-    display: none;
+    /* display: none; */
+    opacity: 0;
+
 }
 
 footer {
