@@ -105,14 +105,14 @@ header {
     padding: 5px;
     font-size: 20px;
     color: white;
-    z-index: 9;
+    z-index: 3;
 
 }
 
 .tag-red {
     background-color: red;
     /* display: inline-block;    */
-    z-index: 9;
+    z-index: 3;
 
 }
 
@@ -120,7 +120,7 @@ header {
     background-color: green;
     /* display: inline-block; */
     left:60px;
-    z-index: 9;
+    z-index: 3;
 
 }
 
@@ -139,7 +139,7 @@ header {
     left: calc(100% - 30px);    
     padding: 5px;
     font-size: 20px;
-    z-index: 9;
+    z-index: 3;
 }
 
 .model-top {
@@ -148,5 +148,13 @@ header {
     left: 0px;
 }
 .model-top:hover {
+    display: none;
+}
+
+.hover-red{
+    color: red;
+}
+
+.heart:hover {
     display: none;
 }
