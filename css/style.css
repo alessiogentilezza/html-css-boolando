@@ -24,7 +24,7 @@ header {
 }
 
 .topbar {
-    height: 100px;
+    height: 70px;
     display: flex;
     max-width: 1170px;
     margin: auto;
@@ -49,14 +49,14 @@ header {
 
 .logo-column {
     width: calc(100% / 3);
-    padding: 20px 0px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
 }
 
-/* #logo {
+#logo {
     height: 100%
-} */
+}
 
 .icon-column {
     width: calc(100% / 3);
@@ -65,6 +65,7 @@ header {
     display: flex;
     justify-content: flex-end;
     color: white;
+    padding: 0px 10px;
 }
 
 .icon-column i {
@@ -113,10 +114,11 @@ header {
 
 .tag-green {
     background-color: green;
-    left:60px;
+    left: 60px;
     z-index: 3;
 
 }
+
 .tag-green-sx {
     background-color: green;
     z-index: 3;
@@ -133,10 +135,11 @@ header {
 .line-through {
     text-decoration: line-through;
 }
+
 .heart {
     position: absolute;
     top: 0px;
-    left: calc(100% - 30px);    
+    left: calc(100% - 30px);
     padding: 5px;
     font-size: 20px;
     z-index: 3;
@@ -147,14 +150,39 @@ header {
     top: 0px;
     left: 0px;
 }
+
 .model-top:hover {
     display: none;
 }
 
-.hover-red{
+.hover-red {
     color: red;
 }
 
 .heart:hover {
     display: none;
+}
+
+footer {
+    background-color: #1A1A1A;
+    width: 100%;
+
+}
+
+.footer-container {
+    height: 100px;
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container i {
+    padding: 10px 10px
+}
+
+.footer-container h3 {
+    padding: 10px 0px
 }
