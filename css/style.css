@@ -105,17 +105,23 @@ header {
     padding: 5px;
     font-size: 20px;
     color: white;
+    z-index: 9;
+
 }
 
 .tag-red {
     background-color: red;
     /* display: inline-block;    */
+    z-index: 9;
+
 }
 
 .tag-green {
     background-color: green;
     /* display: inline-block; */
     left:60px;
+    z-index: 9;
+
 }
 
 .text-red {
@@ -133,4 +139,14 @@ header {
     left: calc(100% - 30px);    
     padding: 5px;
     font-size: 20px;
+    z-index: 9;
+}
+
+.model-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.model-top:hover {
+    display: none;
 }
